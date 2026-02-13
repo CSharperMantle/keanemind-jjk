@@ -16,7 +16,9 @@
     "url": "https://github.com/keanemind/jjk.git"
   },
   "activationEvents": [
-    "*",
+    "onStartupFinished",
+    "workspaceContains:.jj",
+    "onFileSystem:jj",
     "onEditSession:file"
   ],
   "main": "./dist/main.js",
